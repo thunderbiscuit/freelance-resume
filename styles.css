@@ -9,8 +9,8 @@ body {
 
 .resume {
   width: 800px;
-  height: 1170px;
   opacity: 0;
+  /* border-radius: 20px; */
   animation-name: slideInRight;
   animation-delay: 0.4s;
   animation-duration: 2s;
@@ -34,10 +34,12 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 840px) {
   .resume {
     width: 100%;
-    height: 1000px;
+  }
+  a {
+    font-size: 20px;
   }
 }
 
