@@ -18,6 +18,22 @@ body {
   animation-fill-mode: forwards;
 }
 
+.resume-link {
+  opacity: 0;
+  animation-name: slideInRight;
+  animation-delay: 1.8s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+a {
+  /* color: #b8bb26; */
+  /* color: #076678; */
+  color: #ebdbb2;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 700px) {
   .resume {
     width: 100%;
