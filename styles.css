@@ -27,6 +27,13 @@ body {
   animation-fill-mode: forwards;
 }
 
+.button-link {
+  border: 2px solid #ebdbb2;
+  width: 370px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
 a {
   /* color: #b8bb26; */
   /* color: #076678; */
